@@ -1,0 +1,26 @@
+{
+  "name": "stream-replace",
+  "version": "1.0.0",
+  "description": "regex or string replace on a stream",
+  "main": "stream-replace.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxe/stream-replace.git"
+  },
+  "keywords": [
+    "stream",
+    "replace"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxe/stream-replace.js/issues"
+  },
+  "homepage": "https://github.com/lxe/stream-replace.js",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
