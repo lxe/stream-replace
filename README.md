@@ -9,7 +9,7 @@ Returns a transform stream that outputs data with 'needle' replaced with 'replac
  - Same API as [`String.replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
  - Honors needles appearing on chunk boundaries.
 
-#### `str.replace(regexp|substr, newSubStr|function)`
+#### `streamReplace(regexp|substr, newSubStr|function)`
 
  - Returns a `Stream.Transform` instance, whose output has some or all matches of a pattern in the stream's input replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. See [`String.prototype.replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace).
 
