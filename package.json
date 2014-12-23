@@ -1,7 +1,7 @@
 {
   "name": "stream-replace",
   "version": "1.0.0",
-  "description": "regex or string replace on a stream",
+  "description": "replace text in a stream",
   "main": "stream-replace.js",
   "scripts": {
     "test": "node test"
